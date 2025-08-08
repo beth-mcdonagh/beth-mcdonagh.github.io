@@ -11,35 +11,44 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* PhD in Future Earth, Climate Change and Societal Challenge, University of Bologna (Italy), 2024
+  * Thesis title: Analysis of the effects of barotropic and internal tides on the Mediterranean Sea dynamics through numerical experiments
+  * Supervisors: Dr. Emanuela Clementi and Prof. Nadia Pinardi
+* MSc in Atmosphere, Ocean and Climate, University of Reading (UK), 2020
+  * Dissertation title: The future of the global monsoon in the CMIP6 model experiments
+  * Supervisors: Prof. Andrew Turner and Dr. Amulya Chevuturi
+* BSc in Physics, University of Warwick (UK), 2016
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Post-doctoral researcher
+  * Euro-Mediterranean Center on Climate Change
+  * Bologna, Italy
+  * 07/2024-present
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Post-degree researcher
+  * Euro-Mediterranean Center on Climate Change
+  * Bologna, Italy
+  * 02/2024-07/2024
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* PhD candidate
+  * Euro-Mediterranean Center on Climate Change
+  * Bologna, Italy
+  * 11/2020-01/2024
+
+* Visiting Researcher
+  * Max Planck Institute for Meteorology
+  * Hamburg, Germany
+  * 01/2023-04/2023
+
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Technical
+  * Python, Linux, Fortran, Bash, netCDF, CDO, LaTeX, PHP, JavaScript
+* Language
+  * English: native
+  * Italian: CEFR B2 level
 
 Publications
 ======
@@ -52,13 +61,4 @@ Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
