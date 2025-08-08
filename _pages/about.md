@@ -7,9 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-
-About me 
-======
 More soon 
 
 Research interests
