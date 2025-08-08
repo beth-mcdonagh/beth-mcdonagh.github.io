@@ -21,26 +21,25 @@ Education
 
 Work experience
 ======
-* Post-doctoral researcher
-  * Euro-Mediterranean Center on Climate Change
-  * Bologna, Italy
-  * 07/2024-present
+* Post-doctoral researcher at Euro-Mediterranean Center on Climate Change (CMCC), Bologna, Italy, July 2024-present
+  * Regional Ocean Forecasting System division.
+  * Continuation of studies on barotropic and internal tides in the Mediterranean Sea.
+  * High-resolution ocean modelling project on the Gibraltar Strait.
 
-* Post-degree researcher
-  * Euro-Mediterranean Center on Climate Change
-  * Bologna, Italy
-  * 02/2024-07/2024
+* Post-degree researcher at Euro-Mediterranean Center on Climate Change (CMCC), Bologna, Italy, February-July 2024
+  * Regional Ocean Forecasting System division.
+  * Continuation of studies on barotropic and internal tides in the Mediterranean Sea.
+  * Completion of papers and thesis corrections, preparation for thesis defence.
 
-* PhD candidate
-  * Euro-Mediterranean Center on Climate Change
-  * Bologna, Italy
-  * 11/2020-01/2024
+* PhD candidate at Euro-Mediterranean Center on Climate Change (CMCC), Bologna, Italy, November 2020-January 2024
+  * "Analysis of the effects of barotropic and internal tides on the Mediterranean Sea dynamics through numerical experiments".
+  * Regional modelling group of the Ocean Predictions and Applications division.
+  * Supervised by Dr Emanuela Clementi (CMCC) and Professor Nadia Pinardi (University of Bologna).
 
-* Visiting Researcher
-  * Max Planck Institute for Meteorology
-  * Hamburg, Germany
-  * 01/2023-04/2023
-
+* Visiting Researcher at Max Planck Institute for Meteorology, Hamburg, Germany, January-April 2023
+  * Visiting period as part of the PhD programme at the University of Bologna.
+  * Study of internal tides in the Mediterranean Sea.
+  * Supervised by Professor Jin-Song von Storch in the Ocean Energetics group.
 
 Skills
 ======
