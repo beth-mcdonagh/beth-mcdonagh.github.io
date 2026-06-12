@@ -45,6 +45,8 @@ author_profile: true
       <h2>Working Papers & Submitted Manuscripts</h2><hr />
       {% assign standard_flow_has_printed_header = true %}
     {% endunless %}
-    {% include archive-single.html %}
+    
+    {% comment %} Pass a variable to the include file so it knows to hide the link {% endcomment %}
+    {% include archive-single.html is_working_paper="true" %}
   {% endif %}
 {% endfor %}
