@@ -11,11 +11,16 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+{% comment %}
+  Split publications into standard peer-reviewed and working papers
+{% endcomment %}
+{% assign peer_reviewed = site.publications | where_exp: "item", "item.status == nil" %}
+{% assign working_papers = site.publications | where_exp: "item", "item.status == 'submitted' or item.status == 'in_prep'" %}
+
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
+    {% for post in peer_reviewed reversed %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
@@ -27,10 +32,16 @@ author_profile: true
     {% endfor %}
   {% endfor %}
 {% else %}
-  {% for post in site.publications reversed %}
+  {% for post in peer_reviewed reversed %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
 
 
-
+{% if working_papers.size > 0 %}
+  <br />
+  <h2>Working Papers & Submitted Manuscripts</h2><hr />
+  {% for post in working_papers reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}

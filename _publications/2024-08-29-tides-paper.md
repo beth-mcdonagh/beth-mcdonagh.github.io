@@ -9,5 +9,3 @@ venue: 'Ocean Science'
 paperurl: 'https://doi.org/10.5194/os-20-1051-2024'
 citation: 'McDonagh, B., E. Clementi, A. C. Goglio, and N. Pinardi (2024). &quot;The characteristics of tides and their effects on the general circulation of the Mediterranean Sea.&quot; <i>Ocean Science</i>. 20 (4).'
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
