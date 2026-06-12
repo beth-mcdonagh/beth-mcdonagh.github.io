@@ -11,9 +11,8 @@ author_profile: true
 
 {% include base_path %}
 
-{% comment %}
-  Split publications into standard peer-reviewed and working papers
-{% endcomment %}
+<!-- Split publications into standard peer-reviewed and working papers -->
+
 {% assign peer_reviewed = site.publications | where_exp: "item", "item.status == nil" %}
 {% assign working_papers = site.publications | where_exp: "item", "item.status == 'submitted' or item.status == 'in_prep'" %}
 
