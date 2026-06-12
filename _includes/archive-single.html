@@ -46,11 +46,25 @@
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p> -->
         {% endif %}
 
-        {% if post.collection == 'publications' %}
-          {% unless include.is_working_paper == "true" %}
-            <p>Published in <em>{{ post.venue }}</em>, {{ post.date | date: '%Y' }}</p>
-          {% endunless %}
-        {% endif %}
+{% if post.collection == 'publications' %}
+  {% if include.is_working_paper == "true" %}
+    <!-- 1. CLEAR AND REPLACE FOR UNPUBLISHED MANUSCRIPTS -->
+    <p class="archive__item-excerpt" itemprop="description">
+      {% if post.status == "submitted" %}
+        <em>Submitted{% if post.venue %} to {{ post.venue }}{% endif %}</em>
+      {% elsif post.status == "in_prep" %}
+        <em>In preparation</em>
+      {% endif %}
+    </p>
+  {% else %}
+    <!-- 2. STANDARD CONTEXT FOR COMPLETED PUBLICATIONS -->
+    {% if post.citation %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p>
+    {% elsif post.venue %}
+      <p class="archive__item-excerpt" itemprop="description">Published in <em>{{ post.venue }}</em>, {{ post.date | date: '%Y' }}</p>
+    {% endif %}
+  {% endif %}
+{% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
