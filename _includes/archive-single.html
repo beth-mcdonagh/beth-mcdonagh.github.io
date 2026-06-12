@@ -50,7 +50,7 @@
   {% if include.is_working_paper == "true" %}
     <p class="archive__item-excerpt" itemprop="description">
       {% if post.status == "submitted" %}
-        <em>Submitted to {% if post.journal %}{{ post.journal }}{% else %}a journal{% endif %}</em>
+        <em>Submitted to {% if post.venue %}{{ post.venue }}{% else %}a journal{% endif %}</em>
       {% elsif post.status == "in_prep" %}
         <em>In preparation</em>
       {% endif %}
