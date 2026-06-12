@@ -23,13 +23,9 @@ Work experience
 ======
 * Post-doctoral researcher at Euro-Mediterranean Center on Climate Change (CMCC), Bologna, Italy, July 2024-present
   * Regional Ocean Forecasting System division.
+  * Research and development of an ocean ensemble forecasting system in the Mediterranean Sea.
   * Continuation of studies on barotropic and internal tides in the Mediterranean Sea.
   * High-resolution ocean modelling project on the Gibraltar Strait.
-
-* Post-degree researcher at Euro-Mediterranean Center on Climate Change (CMCC), Bologna, Italy, February-July 2024
-  * Regional Ocean Forecasting System division.
-  * Continuation of studies on barotropic and internal tides in the Mediterranean Sea.
-  * Completion of papers and thesis corrections, preparation for thesis defence.
 
 * PhD candidate at Euro-Mediterranean Center on Climate Change (CMCC), Bologna, Italy, November 2020-January 2024
   * "Analysis of the effects of barotropic and internal tides on the Mediterranean Sea dynamics through numerical experiments".
@@ -44,7 +40,11 @@ Work experience
 Skills
 ======
 * Technical
-  * Python, Linux, Fortran, Bash, netCDF, CDO, LaTeX, PHP, JavaScript
+  * Programming: Python, Fortran, Bash, PHP.
+  * Tools/data processing: netCDF, CDO, Xarray, Dask, Linux, Git. 
+  * HPC: development and running of NEMO on CMCC supercomputers (Zeus, Juno, Cassandra), use of DKRZ supercomputer to analyse large datasets. 
+  * Numerical modelling: NEMO (running model with XIOS, development of operational system, analysis of outputs), ICON (analysis of outputs), CMIP models (analysis of outputs).
+
 * Language
   * English: native
   * Italian: CEFR B2 level
