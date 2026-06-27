@@ -4,4 +4,14 @@ title: "Media"
 author_profile: true
 ---
 
-Work in progress
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    src="https://www.youtube.com/embed/uC6Osn3T2LI"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+In December 2025, I gave a seminar as part of the series organised by the "TRR 181 Energy Transfers in Atmosphere and Ocean" centre in Hamburg, Germany. Here I discuss the results of the two papers that I published as part of my PhD, on barotropic and baroclinic tides in the Mediterranean Sea. 
