@@ -19,8 +19,8 @@ One of my projects as a postdoc at CMCC involves developing a new ensemble forec
 - What other unique challenges are there for ensemble forecasting in the ocean, and how can we address them?
 - What can an ensemble such as this tell us about ocean variability in the Mediterranean Sea?
 
-
-## Ocean modelling
+Ocean modelling
+--------
 My other current project is the development of a nested modelling approach to reach kilometre-scale horizontal resolution in the Gibraltar Strait within an operational forecasting model of the Mediterranean Sea, specifically using NEMO + AGRIF to achieve this. The Gibraltar Strait is a highly important region as the only connection from the Mediterranean Sea to the rest of the global ocean, and is challenging to model accurately due to its narrow channel, steep ridges, complex vertical mixing, hydraulic control points, and lack of consistent observational data. 
 - What are the advantages and limitations of NEMO + AGRIF for high-resolution modelling challenges? 
 - Can the additional computational costs of a model such as this be justified by improved model skill due to the higher resolution?
